@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    tools:context=".Fragment.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+      <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+          <androidx.appcompat.widget.Toolbar
+              android:id="@+id/toolbar"
+              app:popupTheme="@style/AppTheme.PopupOverlay"
+              android:layout_width="398dp"
+              android:layout_height="match_parent"
+              android:background="@color/white">
+
+              <FrameLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center_vertical|left"
+                      android:orientation="horizontal">
+
+                      <ImageView
+                          android:id="@+id/profile"
+                          android:layout_width="33dp"
+                          android:layout_height="31dp"
+                          android:layout_gravity="left"
+                          android:layout_marginLeft="10dp"
+                          android:layout_marginRight="15dp"
+                          android:src="@drawable/nav_icon" />
+
+                      <ImageView
+                          android:id="@+id/photo_of_the_day"
+                          android:layout_width="35dp"
+                          android:layout_height="50dp"
+                          android:layout_gravity="center"
+                          android:layout_marginLeft="50dp"
+                          android:layout_marginRight="50dp"
+                          android:src="@drawable/pslogopng" />
+
+                      <LinearLayout
+                          android:layout_width="wrap_content"
+                          android:layout_height="50dp"
+                          android:layout_gravity="center_vertical"
+                          android:orientation="vertical">
+
+                          <TextView
+                              android:layout_width="149dp"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="1dp"
+                              android:layout_marginTop="10dp"
+                              android:layout_marginRight="100dp"
+                              android:gravity="center"
+                              android:text="Photoshooto"
+                              android:textColor="@color/colorPrimary"
+                              android:textSize="22dp"
+                              android:textStyle="bold" />
+
+                          <TextView
+                              android:layout_width="140dp"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="5dp"
+                              android:layout_marginRight="30dp"
+                              android:gravity="center"
+                              android:text="Your Memories, Our Promise"
+                              android:textColor="@color/black"
+                              android:textSize="10dp" />
+
+                      </LinearLayout>
+                  </LinearLayout>
+
+              </FrameLayout>
+          </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ImageView
+        android:layout_width="73dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="87dp"
+        android:background="@drawable/rectangle_50"
+        android:gravity="center"
+        android:src="@drawable/profile" />
+
+    <TextView
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="141dp"
+        android:layout_marginTop="87dp"
+        android:gravity="center_horizontal|top"
+        android:text="Rajiv Umar"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="119dp"
+        android:layout_marginRight="190dp"
+        android:gravity="center_horizontal|right"
+        android:text="ID 324569"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="151dp"
+        android:layout_marginTop="136dp"
+        android:gravity="right"
+        android:text="Banglore, India"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+
+</FrameLayout>

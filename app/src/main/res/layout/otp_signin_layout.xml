@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:id="@+id/root"
+    android:background="@drawable/bottom_sheet_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/container"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/phonenumber_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Mobile Number"
+                android:textSize="16sp"
+                android:textColor="@color/darkGrey" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+                    android:id="@+id/ccp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:ccp_hideNameCode="true"
+                    app:ccp_textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/etNumber"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_centerHorizontal="true"
+                    android:paddingLeft="3dp"
+                    android:textSize="18sp"
+                    android:inputType="number"
+                    android:drawablePadding="10dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/buttonContinue"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
+            android:layout_below="@+id/linear1"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/textOtp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="CONTINUE"
+                android:layout_gravity="center"
+                />
+
+            <ImageView
+                android:id="@+id/ivicon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="right|center_vertical"
+                android:src="@drawable/ic_baseline_arrow_forward"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

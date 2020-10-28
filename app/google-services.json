@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "604425101912",
+    "firebase_url": "https://photoshooto-d12a1.firebaseio.com",
+    "project_id": "photoshooto-d12a1",
+    "storage_bucket": "photoshooto-d12a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604425101912:android:49824129b327ecc7d7602d",
+        "android_client_info": {
+          "package_name": "company.photoshooto_task"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604425101912-u60tpjnvosge9klclss15f61q5c7gg8f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "company.photoshooto_task",
+            "certificate_hash": "dad496d51e8ea618d2b8cf98095fda650e3c4884"
+          }
+        },
+        {
+          "client_id": "604425101912-81f7na95ttcv5qnoqhtopsbh39s08mik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG9N3ifF4XgEgdRby1BJOyHfNMpO-5Jew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604425101912-81f7na95ttcv5qnoqhtopsbh39s08mik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
