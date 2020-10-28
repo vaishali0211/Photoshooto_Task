@@ -236,22 +236,22 @@
                 android:layout_height="50dp"
                 android:background="@drawable/button"
                 android:layout_below="@+id/term_condition"
-                android:layout_marginLeft="25dp"
-                android:layout_marginRight="25dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginRight="45dp"
                 android:layout_marginTop="20dp">
 
-            <TextView
+                <TextView
 
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:gravity="center"
-                android:textColor="@color/white"
-                android:background="@drawable/button"
-                android:textStyle="bold"
-                android:textSize="16sp"
-                android:text="SIGN UP" />
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/button"
+                    android:gravity="center"
+                    android:text="SIGN UP"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
 
-            <ImageView
+                <ImageView
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_marginRight="15dp"

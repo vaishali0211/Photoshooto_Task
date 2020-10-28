@@ -29,12 +29,12 @@
         android:layout_height="wrap_content"
         android:layout_marginRight="151dp"
         android:gravity="center_horizontal"
-        android:text="ID 324569"
-        android:textColor="@color/black"
+        android:text="ID 36Y798H9"
+        android:textColor="@color/darkGrey"
         android:textSize="18sp" />
 
     <TextView
-        android:layout_width="140dp"
+        android:layout_width="121dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="151dp"
         android:gravity="center_horizontal"

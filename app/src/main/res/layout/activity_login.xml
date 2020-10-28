@@ -223,15 +223,19 @@
 
             <LinearLayout
                 android:id="@+id/google_login_layout"
-                android:layout_width="match_parent"
-                android:layout_height="56dp"
+                android:layout_width="223dp"
+                android:layout_height="51dp"
+                android:layout_below="@id/register_text"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="92dp"
                 android:layout_marginLeft="25dp"
+                android:layout_marginTop="19dp"
+                android:layout_marginEnd="97dp"
                 android:layout_marginRight="25dp"
-                android:layout_marginTop="25dp"
                 android:background="@drawable/ic_base_line"
                 android:gravity="center"
-                android:orientation="horizontal"
-                android:layout_below="@id/register_text">
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="40dp"
@@ -252,15 +256,19 @@
 
             <LinearLayout
                 android:id="@+id/otp_login_layout"
-                android:layout_width="match_parent"
-                android:layout_height="56dp"
+                android:layout_width="235dp"
+                android:layout_height="46dp"
+                android:layout_below="@+id/google_login_layout"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="92dp"
                 android:layout_marginLeft="25dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="84dp"
                 android:layout_marginRight="25dp"
-                android:layout_marginTop="20dp"
                 android:background="@drawable/ic_base_line"
                 android:gravity="center"
-                android:orientation="horizontal"
-                android:layout_below="@+id/google_login_layout">
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="40dp"

@@ -62,8 +62,8 @@ public class ProfileFragment extends Fragment {
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
-            mDrawerLayout = (DrawerLayout) mDrawerLayout.findViewById();
-            mToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.string.open, R.string.close);
+//            mDrawerLayout = (DrawerLayout) findViewById(R.id.drawae);
+//            mToggle = new ActionBarDrawerToggle(this,mDrawerLayout,R.string.open,R.string.close);
             mDrawerLayout.addDrawerListener(mToggle);
             mToggle.syncState();
 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/poftd" android:title="Pic of the Day" android:icon="@drawable/pic1"/>
-    <item android:id="@+id/od" android:title="Online Daries" android:icon="@drawable/online"/>
-    <item android:id="@+id/cs2" android:title="Cloud Storage Space" android:icon="@drawable/cloud"/>
-    <item android:id="@+id/ads" android:title="Album Designer Software" android:icon="@drawable/ads"/>
-    <item android:id="@+id/ps" android:title="Printing Software" android:icon="@drawable/print"/>
-    <item android:id="@+id/coming" android:title="Coming Soon" android:icon="@drawable/coming"/>
+    <item android:id="@+id/poftd" android:title="Account" android:icon="@drawable/account"/>
+    <item android:id="@+id/od" android:title="Services" android:icon="@drawable/services"/>
+    <item android:id="@+id/cs2" android:title="My Photos" android:icon="@drawable/my_photo"/>
+    <item android:id="@+id/ads" android:title="Tech and Customer Support" android:icon="@drawable/support"/>
+    <item android:id="@+id/ps" android:title="Feedback" android:icon="@drawable/feedback"/>
+    <item android:id="@+id/coming" android:title="Logout" android:icon="@drawable/logout"/>
 
 
 </menu>
